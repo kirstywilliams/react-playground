@@ -20,3 +20,11 @@ jsx --watch src/ build/
 	* Lifecycle hooks
 	* this.refs
 	* findDOMNode
+
+## [Basic UI](2-play-nine-game/)
+
+* **Compile on change:**
+
+```
+sass --watch src/style.scss:build/style.min.css
+```
