@@ -2,7 +2,7 @@
 
 ## [Getting Started](intro/)
 
-* **Few Takeaways:**
+* **Notes:**
 	* State + Properties -> HTML
 	* State can be changed; Properties are immutable
 	* When State changes, the component holding that state triggers a re-render. 
@@ -14,3 +14,9 @@
 npm install -g react-tools
 jsx --watch src/ build/
 ```
+## [Working With Data](1-github-cards/)
+
+* **Notes:**
+	* Lifecycle hooks
+	* this.refs
+	* findDOMNode
