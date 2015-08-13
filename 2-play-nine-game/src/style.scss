@@ -10,7 +10,7 @@
 	float: left;
 
 	.well {
-		height: 150px;
+		height: 200px;
 	}
 }
 
@@ -18,23 +18,31 @@
 	width:20%;
 	float: left;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 70px;
+}
+
+#numbers-frame .number, 
+#answer-frame .well span {
+	display: inline-block;
+	margin: 0.5em;
+	background-color: #bbb;
+	width: 30px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 50%;
+	cursor: pointer;
+
+	&:hover {
+
+	}
 }
 
 #numbers-frame {
 
-	.number {
-		display: inline-block;
-		margin: 0.5em;
-		background-color: #bbb;
-		width: 30px;
-		text-align: center;
-		font-size: 22px;
-		border-radius: 50%;
-		cursor: pointer;
-
-		&:hover {
-
-		}
+	.selected-true {
+		background-color: #e8e8e8;
+		color: #ddd;
+		cursor: not-allowed;
 	}
+
 }
